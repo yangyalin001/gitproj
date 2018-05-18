@@ -1,1 +1,4 @@
-gitstudy
+ mkdir  一个空目录   -->git init 命令
+ git add  文件名  --> git commit -m “文档描述”
+ git status  查看修改状态   是否被修改
+ git diff 文件名  查看修改内容
