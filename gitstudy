@@ -13,3 +13,14 @@
 
        add           commit
 工作区 ------ 暂存区 ------ 当前分支（HEAD指针）
+
+git checkout -- 文件名   撤销修改返回到最近一次add  或commit 命令之前
+
+git reset HEAD file  把暂存区的修改撤销掉，返回工作区
+
+删除
+git rm file 
+git commit -m ''
+git checkout --file   从版本库中恢复
+
+
