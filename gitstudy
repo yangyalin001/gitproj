@@ -40,9 +40,12 @@ ssh：
 	 在name 栏   填入一个名称  点击create
 HTTPS： git remote add origin https://github.com/yangyalin001/gitproj.git
 ssh：	 git remote add origin git@github.com:yangyalin001/gitproj.git
+<<<<<<< HEAD
 
 推送：
 	git push -u origin master   第一次推送加 -u 参数  关联本地master和远程master 以后简化
 	git push origin master
 
 
+=======
+>>>>>>> 0038445095d5713f9e0c444228521ac056f744e9
