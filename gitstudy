@@ -23,13 +23,26 @@ git rm file
 git commit -m ''
 git checkout --file   从版本库中恢复
 
+
+ssh：
+  1	根目录下 找到.ssh 目录   / id_rsa  id_rsa.pub    
+	ssh-keygen -t rsa -C "youremail@example.com"
+  2.登陆GitHub，打开“Account settings”，“SSH Keys”页面  --- add ssh key  
+     在文本框中粘贴id_rsa.pub 的内容
+
 远程：
 	注册账号   
 		yangyalin001
 		406886018@qq.com
-		yangyalin5476136
+		
 
 	在点击create new repo  
 	 在name 栏   填入一个名称  点击create
 HTTPS： git remote add origin https://github.com/yangyalin001/gitproj.git
 ssh：	 git remote add origin git@github.com:yangyalin001/gitproj.git
+
+推送：
+	git push -u origin master   第一次推送加 -u 参数  关联本地master和远程master 以后简化
+	git push origin master
+
+
